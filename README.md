@@ -42,6 +42,7 @@ This repository contains all the Jupyter Notebooks, datasets, images, video pres
     - Random Forest
 - [Ranking Predictors](#ranking-predictors)
 - [Insights and Conclusions](#insights-and-conclusions)
+- [What we learnt](#What-We-Learnt)
 - [Future Improvements](#future-improvements)
 - [References](#references)
 
@@ -119,7 +120,7 @@ We visualized feature importances using a **bar plot**.
 
 ## Insights and Conclusions
 
-### What We Learned:
+## What We Learnt:
 - Data preprocessing with One-Hot Encoding
 - Resampling techniques (SMOTE, RandomUndersampler)
 - Logistic Regression and Random Forest
