@@ -4,23 +4,6 @@
 This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and source materials used and created as part of the Mini Project for **SC1015: Introduction to Data Science and AI**. The project focuses on predicting diabetes risk using machine learning techniques.
 
 ---
-## Contributors
-
-### Xie Xiaomei  
-- Data Cleaning  
-- Univariate Analysis (categorical)  
-- Bivariate Analysis (categorical)  
-- Resampling  
-- Machine Learning (Decision Tree, Random Forest)
-
-### Xie Xiaotian  
-- Data Cleaning  
-- Univariate Analysis (numerical)  
-- Bivariate Analysis (numerical)  
-- Multivariate Analysis  
-- Machine Learning (Random Forest, Logistic Regression, Hyperparameter Tuning)
-
----
 
 ## Table of Contents
 - [Problem Formulation](#problem-formulation)
@@ -44,6 +27,7 @@ This repository contains all the Jupyter Notebooks, datasets, images, video pres
 - [Insights and Conclusions](#insights-and-conclusions)
 - [What we learnt](#What-We-Learnt)
 - [Future Improvements](#future-improvements)
+- [Contributors](#Contributors)
 - [References](#references)
 
 ---
@@ -187,7 +171,23 @@ Despite their clinical relevance, **hypertension and heart disease showed low im
 - Develop **dynamic risk scores** that update with new inputs
 
 ---
+## Contributors
 
+### Xie Xiaomei  
+- Data Cleaning  
+- Univariate Analysis (categorical)  
+- Bivariate Analysis (categorical)  
+- Resampling  
+- Machine Learning (Decision Tree, Random Forest)
+
+### Xie Xiaotian  
+- Data Cleaning  
+- Univariate Analysis (numerical)  
+- Bivariate Analysis (numerical)  
+- Multivariate Analysis  
+- Machine Learning (Random Forest, Logistic Regression, Hyperparameter Tuning)
+
+---
 ## 📚 References
 - [Kaggle - Diabetes Prediction Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)  
 - [RandomForestClassifier - scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)  
