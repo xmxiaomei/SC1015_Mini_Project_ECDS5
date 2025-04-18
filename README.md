@@ -119,16 +119,27 @@ We visualized feature importances using a **bar plot**.
 ---
 
 ## Insights and Conclusions
+- **HbA1c and glucose levels** were the most important predictors
+- **Age** was moderately important
+- **Hypertension and heart disease** had low predictive power
 
-## What We Learnt:
-- Data preprocessing with One-Hot Encoding
-- Resampling techniques (SMOTE, RandomUndersampler)
-- Logistic Regression and Random Forest
-- Hyperparameter tuning using `GridSearchCV`
-- Evaluation metrics: Precision, Recall, F1 Score
-- Identifying overfitting via train-test performance gaps
-- Team collaboration using GitHub
+### Implications:
+- Prioritize **HbA1c/glucose tests**
+- Adjust screening thresholds based on **age**
+- Place less emphasis on comorbidities for initial screening
 
+### Surprising Findings
+Despite their clinical relevance, **hypertension and heart disease showed low importance**—possibly due to underrepresentation in the dataset. Future work should further investigate this.
+
+### Recommendations
+- Screen all patients **over 40** with HbA1c tests
+- Focus confirmatory tests on:
+  - HbA1c > 5.7 & glucose > 100
+  - Age > 50 with BMI > 25
+
+### Limitations 
+- Data Limitations: Underrepresentation of gestational diabetes cases
+- Temporal Gaps: Lacks longitudinal progression data
 ---
 
 ## Future Improvements
