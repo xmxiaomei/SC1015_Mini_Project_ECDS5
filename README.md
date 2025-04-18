@@ -106,6 +106,45 @@ Used `GridSearchCV` for:
 - Improving performance on validation data
 
 ### Evaluation Metrics:
+To assess our model’s performance, we used several standard classification metrics:
+
+#### Confusion Matrix
+A summary table showing:
+- True Positives (TP): correctly predicted positive cases
+- True Negatives (TN): correctly predicted negative cases
+- False Positives (FP): incorrectly predicted positive cases (false alarms)
+- False Negatives (FN): missed actual positive cases
+
+#### Accuracy
+- Proportion of total correct predictions
+- Gives a general sense of performance, but can be misleading on imbalanced datasets
+
+#### Precision
+- **Avoids false alarms**
+- Measures how many of the predicted positive cases were actually correct  
+- **Formula**:  
+  \[
+  \text{Precision} = \frac{TP}{TP + FP}
+  \]
+- A high value means few false positives — useful when false alarms are costly
+
+#### Recall (Sensitivity)
+- **Catches most actual cases**
+- Measures how many actual positive cases were correctly identified  
+- **Formula**:  
+  \[
+  \text{Recall} = \frac{TP}{TP + FN}
+  \]
+- A high value means fewer missed cases — critical in medical diagnosis
+
+#### F1 Score
+- **Balances precision and recall**
+- The harmonic mean of precision and recall  
+- **Formula**:  
+  \[
+  \text{F1 Score} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+  \]
+- Best used when we want to find an optimal balance between false positives and false negatives
 
 ---
 
